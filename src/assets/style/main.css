@@ -1,0 +1,12 @@
+body{margin: 0;position: relative;text-decoration:none;}
+html{text-decoration:none;}
+h1,h2,h3,h4,h5{margin: 0;}
+li{list-style: none;}
+.relative{position: relative;}
+.absolute{position: absolute}
+.clear {clear:both;}
+.clearfix:after {clear: both;visibility: hidden;height: 0;content: "";display: block;}
+a,i{text-decoration:none;font-style: normal}
+ul,p{margin: 0;padding: 0;}
+.f_l{float: left;}
+.f_r{float: right;}
