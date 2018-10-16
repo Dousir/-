@@ -1,0 +1,117 @@
+.overview {
+    display: flex;
+    padding: 18px 0 18px 18px;
+}
+
+.overview-left {
+    flex: 0 0 137px;
+    width: 137px;
+    padding: 6px 0px;
+    border-right: 1px solid rgba(7, 17, 27, 0.1);
+    text-align: center;
+}
+
+.overview-right {
+    padding: 6px 0 6px 24px;
+}
+
+.overview-right .score {
+    color: #f90;
+}
+
+.overview-left .score {
+    margin-bottom: 12px;
+    line-height: 28px;
+    font-size: 24px;
+    color: #f90;
+}
+
+.overview-left .title {
+    margin-bottom: 8px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #07111b;
+}
+
+.overview-right .score-wrapper {
+    line-height: 18px;
+    margin-top: 8px;
+    display: flex
+}
+
+.split {
+    width: 100%;
+    height: 16px;
+    border-top: 1px solid rgba(1, 17, 27, 0.1);
+    border-top: 1px solid rgba(1, 17, 27, 0.1);
+    background: #f3f5f7;
+}
+
+.overview-right .delivery-wrapper {
+    margin-top: 8px;
+}
+
+.overview-left .rank {
+    line-height: 10px;
+    font-size: 12px;
+    color: #93999f;
+}
+
+.overview-right .delivery-wrapper .delivery {
+    display: inline-block;
+    margin-left: 12px;
+    vertical-align: top;
+    line-height: 18px;
+    font-size: 12px;
+    color: #93999f;
+}
+
+.headerBox {
+    width: 100%;
+    height: 3rem;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.headerBox img {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    z-index: 2;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
+.shopNametext {
+    position: absolute;
+    left: 3rem;
+    top: 0.5rem;
+    color: #fff;
+}
+
+.shopNametext h1 {
+    font-size: 0.5rem
+}
+
+.shopNametext p {
+    width: 80%;
+    text-align: justify;
+    margin-top: 0.1rem;
+    position: relative;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.optionBox {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+#comment {
+    background-color: #fff;
+}
